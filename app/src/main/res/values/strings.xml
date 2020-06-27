@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Islamic Life Solution</string>
+    <string name="salah">Offer Salah</string>
+    <string name="surah">Listen / Recite Surah</string>
+    <string name="ArabicLetter">Learn Arabic Letter</string>
+    <string name="Azan">Listen Azan</string>
+    <string name="duas">Duas</string>
+    <string name="salahTime">Salah Time</string>
+    <string name="rulesOfSalah">Rules of Salah</string>
+    <string name="qibla">Qibla Direction</string>
+
+    <string name="open_navigation">Open Navigation</string>
+    <string name="close_navigation">Close Navigation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment Qibla</string>
+    <string name="title_activity_salah_dhuhr">SalahDhuhr</string>
+    <string name="description">As-salamu alaykum. The main objective of this application is to make it easier to pray for people who received Islam as their religion later in life unlike the people born in an Islamic family. So, they usually don’t have much knowledge about the ways of Islam and don’t have the Surahs memorized to offer
+        Salah. These things also true for many other people who were born in Islamic family but forgot or didn’t learn the Surahs and thus having trouble to offer Salah. So, we came up with the idea of building an app that will help Muslims to make their prayer even if they don’t memorize the Surahs.
+        Our app also has the features for learning the Arabic letters and memorizing the Surahs which are usually used in Salah. It also provides the rules of offering salah. This app is a complete package for offering Salah.
+    </string>
+    <string name="feature1">Allows  users to select specific prayers and Surahs.</string>
+    <string name="feature2">Allows users to read and listen to Surahs.</string>
+    <string name="feature3">Allow users to learn the meaning of the Surahs.</string>
+    <string name="feature4">Allow users to learn Arabic alphabets.</string>
+    <string name="feature5">Allow users to listen to Azan whenever they want.</string>
+    <string name="feature6">Helps to learn about the rules of Salah.</string>
+    <string name="aboutus">We are students, studying in Computer Science and Engineeringwhose aim
+        is to help people who wants to offer their prayer but facing difficulties.</string>
+    <string name="text">Allow users to listen to Azan whenever they want.</string>
+
+</resources>

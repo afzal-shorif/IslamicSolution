@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/salah"
+            android:icon="@drawable/ic_offer_salah"
+            android:title="@string/salah"/>
+        <item
+            android:id="@+id/Listen_surah"
+            android:icon="@drawable/ic_listen_surah"
+            android:title="@string/surah"/>
+
+        <item
+            android:id="@+id/arabicLetter"
+            android:icon="@drawable/ic_arabic_letter"
+            android:title="@string/ArabicLetter"/>
+
+        <item
+            android:id="@+id/ListenAzan"
+            android:icon="@drawable/ic_add_alert"
+            android:title="@string/Azan"/>
+
+        <item
+            android:id="@+id/qibla"
+            android:icon="@drawable/ic_qibla"
+            android:title="@string/qibla"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/headerImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/header_bg">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/headerImage"
+        android:background="@drawable/bg">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Islamic Life Solutions"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#26A54F"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/title"
+            android:paddingTop="35dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="40dp">
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:justificationMode="inter_word"
+                    android:text="@string/description"
+                    android:textColor="#fff"
+                    android:textStyle="normal"
+                    android:textSize="20dp"
+                    android:textFontWeight="1"
+                    android:paddingLeft="35dp"
+                    android:paddingRight="35dp"/>
+
+                <LinearLayout
+                    android:id="@+id/txt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/txt1"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1."
+                        android:textColor="#fff"
+                        android:textStyle="normal"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:textColor="#fff"
+                        android:textStyle="normal"
+                        android:textSize="20dp"
+                        android:layout_weight="10"
+                        android:text="@string/feature1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/txt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/txt3"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="2."
+                        android:textColor="#fff"
+                        android:textStyle="normal"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:textColor="#fff"
+                        android:textStyle="normal"
+                        android:textSize="20dp"
+                        android:layout_weight="10"
+                        android:text="@string/feature2"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/txt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/txt4"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="3."
+                        android:textColor="#fff"
+                        android:textStyle="normal"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:textColor="#fff"
+                        android:textStyle="normal"
+                        android:textSize="20dp"
+                        android:layout_weight="10"
+                        android:text="@string/feature3"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/txt6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/txt5"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="4."
+                        android:textColor="#fff"
+                        android:textStyle="normal"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:textColor="#fff"
+                        android:textStyle="normal"
+                        android:textSize="20dp"
+                        android:layout_weight="10"
+                        android:text="@string/feature4"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/txt8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/txt6"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="5."
+                        android:textColor="#fff"
+                        android:textStyle="normal"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:textColor="#fff"
+                        android:textStyle="normal"
+                        android:textSize="20dp"
+                        android:layout_weight="10"
+                        android:text="@string/feature5"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:justificationMode="inter_word"
+                    android:layout_below="@id/txt8"
+                    android:textColor="#fff"
+                    android:text="About Us:"
+                    android:textStyle="normal"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"/>
+
+                <TextView
+                    android:id="@+id/txt10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:justificationMode="inter_word"
+                    android:layout_below="@id/txt9"
+                    android:textColor="#fff"
+                    android:text="@string/aboutus"
+                    android:textStyle="normal"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="35dp"
+                    android:paddingRight="32dp" />
+
+                <TextView
+                    android:id="@+id/txt11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:justificationMode="inter_word"
+                    android:layout_below="@id/txt10"
+                    android:textColor="#fff"
+                    android:text="The developers are –"
+                    android:textStyle="normal"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"/>
+
+                <TextView
+                    android:id="@+id/txt12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:justificationMode="inter_word"
+                    android:layout_below="@id/txt11"
+                    android:textColor="#fff"
+                    android:text="•	Afzal Shorif"
+                    android:textStyle="normal"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="32dp"/>
+                <TextView
+                    android:id="@+id/txt13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:justificationMode="inter_word"
+                    android:layout_below="@id/txt12"
+                    android:textColor="#fff"
+                    android:text="•	Hasin Raiyan"
+                    android:textStyle="normal"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="32dp"/>
+                <TextView
+                    android:id="@+id/txt14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:justificationMode="inter_word"
+                    android:layout_below="@id/txt13"
+                    android:textColor="#fff"
+                    android:text="•	Rakibul Islam"
+                    android:textStyle="normal"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="32dp"/>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

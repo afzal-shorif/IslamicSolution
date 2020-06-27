@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ArabicLetter">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap to hear Sound"
+        android:textAlignment="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="#C2C2C2"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/LetterView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/amiri"
+                    android:text="ث"
+                    android:textSize="60dp"
+                    android:textColor="#000"/>
+                <TextView
+                    android:id="@+id/LetterView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/amiri"
+                    android:text="ت"
+                    android:textSize="60dp"
+                    android:textColor="#000"/>
+                <TextView
+                    android:id="@+id/LetterView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/amiri"
+                    android:text="ب"
+                    android:textSize="60dp"
+                    android:textColor="#000"/>
+                <TextView
+                    android:id="@+id/LetterView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/amiri"
+                    android:text=" أ "
+                    android:textSize="60dp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/LetterView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="د"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="خ"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ح"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ج"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/LetterView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="س"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ز"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ر"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ذ"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/LetterView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ط"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ض"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ص"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ش"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/LetterView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ف"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="غ"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ع"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ظ"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/LetterView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="م"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ل"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ك"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ق"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/LetterView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ء"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="ه"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:id="@+id/LetterView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text="و"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+                <TextView
+                    android:id="@+id/LetterView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/amiri"
+                    android:text="ن"
+                    android:textSize="60dp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text=" "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text=" "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/amiri"
+                    android:text=" "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="60dp" />
+                <TextView
+                    android:id="@+id/LetterView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/amiri"
+                    android:text="ي"
+                    android:textSize="60dp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
