@@ -14,6 +14,7 @@ The main objective for this application is to make it easier to pray for people 
 ## Screenshots
 ![Home Page](https://drive.google.com/uc?export=view&id=1OAASjHYwHcdDrWSdeVWE8ezpqcJcHP4_)
 ![Menu](https://drive.google.com/uc?export=view&id=1uTnf8kQ9PSEYksfa0ImtVlNje0PVdlcd)
+
 ![Offer Salah](https://drive.google.com/uc?export=view&id=1HuiHPXaXzutVTNV_0m7ApvhUrlwu7JIh)
 ![Salah Fazar](https://drive.google.com/uc?export=view&id=1wdaLWrB5Ohz0AXkDdQS3VzeEk7UNZ4AR)
 
